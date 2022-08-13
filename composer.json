@@ -1,0 +1,22 @@
+{
+    "name": "hazzazbinfaiz/word-finder",
+    "description": "Word finding messenger bot",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Md. Hazzaz Bin Faiz",
+            "email": "hazzazbinfaiz@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "./src"
+        },
+        "files": ["helper.php"]
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/http": "8.0",
+        "guzzlehttp/guzzle": "7.2"
+    }
+}

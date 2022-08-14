@@ -5,6 +5,7 @@ namespace App;
 use Illuminate\Http\Client\Factory;
 use Illuminate\Http\Client\PendingRequest;
 use Illuminate\Http\Request;
+use RuntimeException;
 
 class RequestHandler
 {

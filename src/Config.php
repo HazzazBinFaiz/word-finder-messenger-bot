@@ -21,7 +21,7 @@ class Config
         return self::$config['access_token'];
     }
 
-    public static function set(mixed $config)
+    public static function set(array $config)
     {
         self::$config = $config;
     }
